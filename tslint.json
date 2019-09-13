@@ -1,0 +1,25 @@
+{
+	"rulesDirectory": ["./node_modules/tslint-immutable/rules", "./node_modules/tslint-microsoft-contrib"],
+	"rules": {
+		"indent": false,
+		"member-access": false,
+		"member-ordering": false,
+		"object-literal-sort-keys": false,
+		"interface-name": false,
+		"arrow-parens": false,
+		"no-console": false,
+		"semicolon": false,
+		"no-var-keyword": true,
+		"array-type": [true, "generic"],
+		"no-shadowed-variable": true,
+		"triple-equals": true,
+		"no-default-export": true,
+		"class-name": true,
+		"variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case", "allow-leading-underscore"],
+		"function-name": true,
+		"no-class": false,
+		"readonly-keyword": [true, "ignore-class"],
+		"readonly-array": [true, "ignore-local"],
+		"restrict-plus-operands": true
+	}
+}
